@@ -5,6 +5,5 @@ public class Lab062_TO {
         int age =20;
         String canIVote =age >=18? "Yes,you can vote":"No,you can't vote";
         System.out.println(canIVote);
-    }
-
-}
+        }
+        }

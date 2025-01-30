@@ -19,5 +19,3 @@ public class Lab068_Age_Classification {
 
     }
 }
-    }
-}
