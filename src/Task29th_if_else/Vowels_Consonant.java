@@ -5,24 +5,15 @@ import java.util.Scanner;
 
 public class Vowels_Consonant {
     public static void main(String[] args) {
-        String c;
-        try{
-            Scanner sc=new Scanner(System.in);
-            System.out.println("Enter your String");
-            c=sc.next();
 
-            for(int i=0;i<c.length();i++)
-            {
-                if(c.charAt(i)=='a'|| c.charAt(i)=='e'||c.charAt(i)=='i'||c.charAt(i)=='o'||c.charAt(i)=='u')
-                {
-                    System.out.println(c.charAt(i) + " is vowel");
 
-                }
-                else if(c.charAt(i)>='a' && c.charAt(i)<='z')
-                {
-                    System.out.println(c.charAt(i) + " is consonant");
-                }}
-        }catch( InputMismatchException e)
-        {
-            System.out.println( "please enter alphabets string");
-        }}}
+        Scanner sc = new Scanner(System.in);
+
+        char ch = sc.next().charAt(0);
+        char ch1 = Character.toLowerCase(ch);
+        if (ch1 == 'a' || ch1 == 'e' || ch1 == 'i' || ch1 == 'o' || ch1 == 'u') {
+            System.out.println("vowel");
+        } else {
+            System.out.println("consonent");
+        }
+    }}
