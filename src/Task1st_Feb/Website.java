@@ -1,8 +1,6 @@
-package Task1st_Feb;
-
-public class Website {
+/*public class Website {
     public static void main(String[] args) {
-        String URL;
+         String URL;
       String  Expected_URL=""""+".com"";
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the URL");
@@ -15,7 +13,7 @@ public class Website {
             System.out.println("not");
             }
             }
-            }
+            }*/
 
 
 
