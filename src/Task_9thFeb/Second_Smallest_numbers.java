@@ -9,6 +9,6 @@ public class Second_Smallest_numbers {
                 Arrays.sort(array);
 
                 int secondMin=array[1];
-        System.out.println("Second smallest number;"+secondMin);
+        System.out.println("Second smallest number:"+secondMin);
     }
 }
